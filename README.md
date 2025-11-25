@@ -23,4 +23,4 @@ URL
 ・Nginx1.21.1
 
 ER図
-![alt text](9195119d-9c9b-4e34-b10a-9e16bd9440e0.png)
+![ER図](ER.png)
