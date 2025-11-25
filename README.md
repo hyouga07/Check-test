@@ -1,8 +1,9 @@
-Dockerビルド
+Docker ビルド
 ・git clone https://github.com/hyouga07/Check-test.git
 ・docker-compose up -d --build
 
-Laravel環境構築
+Laravel 環境構築
+・docker-compose exec php bash
 ・composer install
 ・cp .env.example .env、開発変数を適宜変更
 ・php artisan key:generate
@@ -21,7 +22,7 @@ URL
 ・MySQL8.0.26
 ・Nginx1.21.1
 
-ER図
+ER 図
 ![ER図](ER.png)
-※透過で見えないかもしれないので元のER作成元の.drawio.pugもファイルに入れています
-  Draw.io Extension for VSCodeをVSCode内にインストールして確認してください
+※透過で見えないかもしれないので元の ER 作成元の.drawio.pug もファイルに入れています
+Draw.io Extension for VSCode を VSCode 内にインストールして確認してください
