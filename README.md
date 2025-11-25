@@ -1,9 +1,8 @@
 Dockerビルド
 ・git clone https://github.com/hyouga07/Check-test.git
-・cd Check-test
+・docker-compose up -d --build
 
 Laravel環境構築
-・docker-compose up -d --build
 ・composer install
 ・cp .env.example .env、開発変数を適宜変更
 ・php artisan key:generate
