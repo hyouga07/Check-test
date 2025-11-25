@@ -1,0 +1,34 @@
+.header {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.header__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header__logo {
+    color: #b6aba1;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.header__nav {
+    position: absolute;
+    right: 15px;
+}
+
+.header__nav a {
+    color: #b6aba1;
+    text-decoration: none;
+    border: 1px solid #cfc6bc;
+    padding: 6px 18px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
