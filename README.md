@@ -24,3 +24,5 @@ URL
 
 ER図
 ![ER図](ER.png)
+※透過で見えないかもしれないので元のER作成元の.drawio.pugもファイルに入れています
+  Draw.io Extension for VSCodeをVSCode内にインストールして確認してください
